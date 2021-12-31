@@ -18,28 +18,28 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/realme/RMX1801
 
 PRODUCT_COPY_FILES += \
-    vendor/realme/RMX1801/proprietary/etc/camera/cp/CPCalibrationData.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/cp/CPCalibrationData.bin \
-    vendor/realme/RMX1801/proprietary/etc/camera/cp/FusionCalibrationParams.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/cp/FusionCalibrationParams.bin \
-    vendor/realme/RMX1801/proprietary/etc/camera/cp/SystemParamsBokeh.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/cp/SystemParamsBokeh.bin \
-    vendor/realme/RMX1801/proprietary/etc/camera/cp/SystemParamsFusion.bin:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/cp/SystemParamsFusion.bin \
-    vendor/realme/RMX1801/proprietary/etc/camera/faceTpl0.rgb32:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/faceTpl0.rgb32 \
-    vendor/realme/RMX1801/proprietary/etc/camera/faceTpl1.rgb32:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/faceTpl1.rgb32 \
-    vendor/realme/RMX1801/proprietary/etc/camera/gasryuv.model:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/gasryuv.model \
-    vendor/realme/RMX1801/proprietary/etc/camera/skinSeg.model:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/skinSeg.model \
+    vendor/realme/RMX1801/proprietary/vendor/etc/camera/cp/CPCalibrationData.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cp/CPCalibrationData.bin \
+    vendor/realme/RMX1801/proprietary/vendor/etc/camera/cp/FusionCalibrationParams.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cp/FusionCalibrationParams.bin \
+    vendor/realme/RMX1801/proprietary/vendor/etc/camera/cp/SystemParamsBokeh.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cp/SystemParamsBokeh.bin \
+    vendor/realme/RMX1801/proprietary/vendor/etc/camera/cp/SystemParamsFusion.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/cp/SystemParamsFusion.bin \
+    vendor/realme/RMX1801/proprietary/vendor/etc/camera/faceTpl0.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/camera/faceTpl0.rgb32 \
+    vendor/realme/RMX1801/proprietary/vendor/etc/camera/faceTpl1.rgb32:$(TARGET_COPY_OUT_VENDOR)/etc/camera/faceTpl1.rgb32 \
+    vendor/realme/RMX1801/proprietary/vendor/etc/camera/gasryuv.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/gasryuv.model \
+    vendor/realme/RMX1801/proprietary/vendor/etc/camera/skinSeg.model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/skinSeg.model \
     vendor/realme/RMX1801/proprietary/etc/cne/Nexus/ATT/ATT_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ATT/ATT_profiles.xml \
     vendor/realme/RMX1801/proprietary/etc/cne/Nexus/ROW/ROW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/ROW/ROW_profiles.xml \
     vendor/realme/RMX1801/proprietary/etc/cne/Nexus/VZW/VZW_profiles.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/cne/Nexus/VZW/VZW_profiles.xml \
-    vendor/realme/RMX1801/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/realme/RMX1801/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_12_0.fw \
-    vendor/realme/RMX1801/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/realme/RMX1801/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/realme/RMX1801/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/realme/RMX1801/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/realme/RMX1801/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/realme/RMX1801/proprietary/etc/firmware/cpp_firmware_v1_5_1.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_5_1.fw \
-    vendor/realme/RMX1801/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/realme/RMX1801/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/realme/RMX1801/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_SYSTEM)/etc/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/realme/RMX1801/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/realme/RMX1801/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/realme/RMX1801/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/realme/RMX1801/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/realme/RMX1801/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/realme/RMX1801/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/realme/RMX1801/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/realme/RMX1801/proprietary/vendor/firmware/cpp_firmware_v1_5_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_1.fw \
+    vendor/realme/RMX1801/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/realme/RMX1801/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/realme/RMX1801/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/realme/RMX1801/proprietary/etc/permissions/audiosphere.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/audiosphere.xml \
     vendor/realme/RMX1801/proprietary/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/qti_permissions.xml \
     vendor/realme/RMX1801/proprietary/framework/audiosphere.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/audiosphere.jar \
@@ -2608,6 +2608,7 @@ PRODUCT_COPY_FILES += \
     vendor/realme/RMX1801/proprietary/vendor/lib/libmmcamera_imx519.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx519.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/libmmcamera_imx576.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx576.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/libmmcamera_imx576_m24c64s_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx576_m24c64s_eeprom.so \
+    vendor/realme/RMX1801/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/libmmcamera_isp_abf48.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_abf48.so \
     vendor/realme/RMX1801/proprietary/vendor/lib/libmmcamera_isp_aec_bg_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_aec_bg_stats47.so \
